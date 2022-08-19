@@ -2,19 +2,16 @@
 
 Source code for  react-native mobile app that handles storing csv and png files on mobile device Android and iOS
 ```
-*
 - Create a react native mobile app that allows the user to upload PNG files and CSV files, the 
 app should have 3 screens (routes).
 - There is no need for a backend, all data can make use of the device's local storage 
 (anything asynchronous will work, it's not the most important part of the challenge).
-*
-- [x] `#0969DA` /home (where is possible to upload files)
+   /home (where is possible to upload files)
 Upload button
-- [x] `#0969DA` /images (list of png files)
+   /images (list of png files)
 Gallery
- `#0969DA` /sheets (list of csv files)
+    /sheets (list of csv files)
 
-*
 On this list it should display the filename, and the total amount column 1 (Total)
 When uploading csv the only format acceptable is, using line 1 as header (Total), and the 
 rest as data, on the very first column. I.e.[^moment].
@@ -30,6 +27,28 @@ you, you can make it using a drawer, tab bars, etc...
 [^moment]:That spec is not realy clear for me therefore I implemented rendering csv as table. Challenge allocated maximum time was 48h (max 8/day=> at least 6 days), but I only had 14 available, therefore I did not had a lot of space for receiving answers. At this stage the project is in WIP status, but can be review-ed and checked the logics.
 
 :+1: This challenge looks great - let's see some output! :shipit:
+
+# Demo Attachements
+
+<p >
+ <a href="https://www.youtube.com/embed/Baesb1lEcow" target="_blank">
+  <img src="https://user-images.githubusercontent.com/54862062/185627037-64871f60-2231-40a5-ba50-79f0bd104dc4.png" alt="Samsung Galaxy S10e One UI 4.1" width="140" height="280" border="10" />
+</a>
+</p
+ 
+- [x] [G-Drive atixlab-demo -Samsung Galaxy S10e One UI 4.1, Android 12](https://drive.google.com/file/d/1HiA0Ted8bIm-KXF1gV112zjGkgeKLomo/view?usp=sharing)
+- [x] [YouTube atixlab-demo -Samsung Galaxy S10e One UI 4.1, Android 12](https://www.youtube.com/embed/Baesb1lEcow)
+ 
+<p >
+- <a href="https://youtu.be/Baesb1lEcow" target="_blank">
+  <img src="https://user-images.githubusercontent.com/54862062/185628339-131c753b-7367-440a-8648-3203d25f5277.png" alt="Samsung Galaxy S10e One UI 4.1" width="140" height="280" border="10" /></a>
+ </p
+ 
+- [x] [G-Drive atixlab-demo -iPhone 12 Pro iOS 15.16.1](https://drive.google.com/file/d/1cyWChwIU2JyEJmJHHo_sfQXMJV48R7p0/view?usp=sharing)
+- [x] [YouTube atixlab-demo -iPhone 12 Pro iOS 15.16.1](https://youtu.be/Baesb1lEcow)
+ 
+
+
 ## Setup
 
 ### System requirements 
@@ -198,7 +217,7 @@ Contains sample csv and png files for testing into read device in dev mode
 
 This directory will hold your Jest configs and mocks, as well as your test files. 
 
-### ./androis directory
+### ./android directory
 
 Android platform specific native project implementations. 
 
