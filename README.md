@@ -153,7 +153,7 @@ yarn ios
 ## Release a new version not available yet
 
 
-- Project does not contain at the moment a kestore for production releasec
+- Project does not contain at the moment a kestore for production release
  
 ## Project structure
 
